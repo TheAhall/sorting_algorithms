@@ -2,8 +2,8 @@
 
 /**
  * swap - swap two int
- * @a: int
- * @b: int
+ * @a: value
+ * @b: value
  * Return: (void) Swaped int
  */
 void swap(int *a, int *b)
@@ -17,10 +17,10 @@ void swap(int *a, int *b)
 /**
  * partition - Partition an array and using pivot
  * @array: Array
- * @low: int
- * @high: int
- * @size: size of array (size_t)
- * Return: index of pivote (int)
+ * @low: value
+ * @high: value
+ * @size: size of the array
+ * Return: index
  */
 int partition(int *array, int low, int high, size_t size)
 {
@@ -61,7 +61,7 @@ void lomuto_qsort(int *array, int low, int high, size_t size)
 	}
 }
 /**
- * quick_sort - Quick Sort Algorithme using lomuto partition
+ * quick_sort - Quick sort algorithm
  * @array: Array to sort
  * @size: Size of The Array
  * Return: Sorted Array (void)
