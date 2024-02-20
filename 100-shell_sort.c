@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * shell_sort -Sort an Array using shell sort
+ * shell_sort - Sort an Array using shell sort
  * @array: array of Int
  * @size: array size
  **/
